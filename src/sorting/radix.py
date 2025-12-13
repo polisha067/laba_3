@@ -1,5 +1,4 @@
-from src.sorting.counting import CountingSort
-
+from .counting import CountingSort
 class RadixSort:
     """
     класс для поразрядной сортировки.

@@ -31,15 +31,15 @@ class FactorialCalculator:
         return number * FactorialCalculator.recursive(number - 1)
 
 
-@classmethod
-def calculate(cls, number: int, method: str = 'iterative') -> int:
-    """
-    вычисление фаакториала
-    """
-    if method == 'iterative':
-        return cls.iterative(number)
-    elif method == 'recursive':
-        return cls.recursive(number)
-    else:
-        raise ValueError(f"такого метода нет: {method}")
+    @classmethod
+    def calculate(cls, number: int, method: str = 'iterative') -> int:
+        """
+        вычисление фаакториала
+        """
+        if method == 'iterative':
+            return cls.iterative(number)
+        elif method == 'recursive':
+            return cls.recursive(number)
+        else:
+            raise ValueError(f"такого метода нет: {method}")
     
