@@ -1,6 +1,32 @@
 # лабораторная работа номер 3
 
 ## структура
+├── src            
+│   ├── /maths                               # файл с Фибоначчи и Факториалом
+│   ├── ├── factorial.py
+│   ├── ├── fibonacci.py
+│   ├── ├── __init__.py
+│   ├── /sorting                             # файл со всеми сортировками
+│   ├── ├── __init__.py
+│   ├── ├── bubble.py
+│   ├── ├── bucket.py
+│   ├── ├── counting.py
+│   ├── ├── heap.py
+│   ├── ├── quick.py
+│   ├── ├── radix.py
+│   ├── /structures                           # стек и очередь
+│   ├── ├── queue.py
+│   ├── ├── stack.py
+├── tests                                     # папка с тестами
+│   ├── test_.py
+│   ├── test_.py
+│   ├── test_.py
+│   ├── test_.py
+│   ├── test_.py
+│   ├── test_.py
+│   ├── test_.py
+│   ├── test_.py
+│   ├── test_.py
 
 ## алгоритмы
 
