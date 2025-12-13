@@ -33,8 +33,8 @@ class TestFibonacciCalculator:
         """метод получения последовательности"""
         assert FibonacciCalculator.sequence(0) == []
         assert FibonacciCalculator.sequence(1) == [0]
-        assert FibonacciCalculator.sequence(4) == [0, 1, 2, 2]
-        assert FibonacciCalculator.sequence(6) == [0, 1, 2, 2, 3, 5]
+        assert FibonacciCalculator.sequence(4) == [0, 1, 1, 2]
+        assert FibonacciCalculator.sequence(6) == [0, 1, 1, 2, 3, 5]
     
     def test_negative_number(self):
         """отрицательное число"""
